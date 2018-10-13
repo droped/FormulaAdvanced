@@ -1,53 +1,41 @@
-# FormulaPro (previously "EEPro Nspire").
+[![License (LGPL version 3.0)](https://img.shields.io/badge/license-GNU%20LGPL%20version%203.0-brightgreen.svg?style=flat-square)](http://www.gnu.org/licenses/lgpl.html)
 
-### This is a [TI-Planet.org](http://tiplanet.org) project.
-### Announce topic here : [FR](http://tiplanet.org/forum/viewtopic.php?t=8446) / [EN](http://tiplanet.org/forum/viewtopic.php?f=50&t=8455)
-### Google Groups "tinspire" topic : [here](https://groups.google.com/forum/#!topic/tinspire/dYWb0poANyo).
-
-
-### Licence : [LGPL3](http://www.gnu.org/licenses/lgpl.html)
-
+# FormulaAdvanced (FormulaPro fork)
 
 ## Who .... ?
-For now, The two main developers are Jim Bauwens and Adrien Bertrand ("Adriweb")
+The two main developers are Jim Bauwens and Adrien Bertrand ("Adriweb") (and Pedro Diniz ("droped") in this repo).  
 We also would like to thank Levak for his animation API and Nick Steen for the Resistor Reference part.
-Many thanks too to Critor, Excale, NeoCrisis ... and TI of course :)
+Many thanks too to Critor, Excale, NeoCrisis, alex3yoyo ... and TI of course :)
 
-We welcome everybody, so if you want to help us, contact us by email (see down there)
+You could become part of this list by contributing too. ;-)
+
+But if you don't wish to be involved in a big thing, you can help with issues, References and the Database (equations and stuff).
 
 ## What .... ?
 ### Please READ (and comment if you want) this reference document : [Link](https://docs.google.com/document/d/1LBjZiKBB3k_bAIDWjTVRH9zTrX5DUQZ6BOXLhKveqJk/edit).
 
 ![The overall organization](http://i.imgur.com/UhHn7.png)
- 
-The only requirement to run the .tns files is to have an Nspire OS >= 3.0. You can find the latest updates [here](http://education.ti.com). Version 3.9 is preferred to enjoy the latest features, and 3.1/3.6 if you want to keep Ndless.
 
-## What we have done, so far :
-Well, "FormulaPro", the formulas/equation part (2nd part of EEPro). Its latest stable version is 1.42b
-This has been officially released (in beta) June 21st 2012 across multiple community websites :
-* http://www.omnimaga.org/index.php?topic=13849
-* https://groups.google.com/forum/?fromgroups#!topic/tinspire/dlqZrAKpulM 
-* http://tiplanet.org/forum/viewtopic.php?p=126193 
-* http://www.inspired-lua.org/2012/06/formulapro-v1-is-here/
+The *big* part is the Analysis one, which we'll focus on later. (See the [EEPro Manual](http://tiplanet.org/modules/archives/eepro.pdf))
 
-![Home Screen of FormulaPro](http://i.imgur.com/Uxy5N.jpg)
-![Reference Screen of FormulaPro](http://i.imgur.com/lcrYU.jpg)
-![Some solver screen](http://i.imgur.com/yUbY7.jpg)
-![Formulas being displayed inside solver](http://i.imgur.com/4326g.jpg)
+## Building:
 
-Please refer to the document linked in the previous paragraph.
+1. Download this repo in a zip file and extract it
 
-At the same time, if you don't wish to be involved in a big thing, you can help with some of the Reference parts :-)
+#### If you are in windows:
 
-Then, the *big* part is the Analysis one, which we'll focus on later. (See the [EEPro Manual](http://tiplanet.org/modules/archives/eepro.pdf))
+1. Download luna (source: https://github.com/ndless-nspire/Luna / precompiled windows binary here: http://www.ticalc.org/archives/files/fileinfo/441/44113.html)
+2. Extract all files from "luna.zip" and copy all extracted files to the root of this repo
+2. Run build.bat
 
-## Meet us on IRC :
-- Here [via Mibbit](http://mibbit.com/chat/#eepronspire@efnet).
-- Directly on your IRC client : EFNet Server, #eepronspire channel.
+#### If you are in linux:
 
+1. Download luna (source: https://github.com/ndless-nspire/Luna)
+2. Compile it
+3. Copy the resulting "luna" file to the root of this repo
+2. Run build.sh
 
-__Contact : info @ tiplanet . org__
+--
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/adriweb/eepro-for-nspire/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+### Original:  
+Link: https://github.com/adriweb/EEPro-for-Nspire

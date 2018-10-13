@@ -1,3 +1,5 @@
+--Analysis--
+
 Analysis	= Dialog("Note",50, 50, 200, 120)
 
 txt	= sLabel ("Analysis is not yet done!")
@@ -14,3 +16,5 @@ but:giveFocus()
 function but:action()
 	only_screen(main)
 end
+
+--End of Analysis--

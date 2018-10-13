@@ -1,3 +1,4 @@
+----
 
 Greek = Screen()
  
@@ -63,3 +64,4 @@ function Greek:escapeKey()
 	only_screen_back(Ref)
 end
 
+----
